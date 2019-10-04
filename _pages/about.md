@@ -25,9 +25,9 @@ My research interests are so unthemed I ended up naming my PhD thesis "A few top
 
 Contact
 ======
-#### Email
+### Email
 [firstname.lastname][at]duke.edu
 
-#### Office
+### Office
 W320, 100 Fuqua Drive  
 Durham, North Carolina 27708
