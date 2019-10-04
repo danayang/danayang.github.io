@@ -9,7 +9,7 @@
 locale                   : "en-US"
 title                    : "Dana (Xiaoqian) Yang__website under construction__"
 title_separator          : "-"
-name                     : &name "Dana (Xiaoqian) Yang"
+name                     : &name "Dana (Xiaoqian) Yang__website under construction__"
 description              : &description "Postdoc at Duke University"
 url                      : https://danayang.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
