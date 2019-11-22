@@ -33,7 +33,7 @@ Victor-Emmanuel Brunel, Jason M. Klusowski and Dana Yang.
 <i>[arXiv](https://arxiv.org/abs/1804.09879) preprint arXiv:1804.09879, under revision for Bernoulli</i>, 2018.
 <br>
 <b> Remarks on Kneip's linear smoothers</b> <br> 
-S&ouml;ren R. K{\"u}nzel, David Pollard and Dana Yang.
+S&ouml;ren R. K&uuml;nzel, David Pollard and Dana Yang.
 <i>[arXiv](https://arxiv.org/abs/1405.1744) preprint arXiv:1405.1744</i>, 2014.
 
 
@@ -47,7 +47,7 @@ Dana Yang.
 Jason M. Klusowski, Dana Yang and W.D. Brinda.
 <i>IEEE Transactions on Information Theory</i>, 65(6), pages 3515-3524, 2019.
 <br>
-<b> H{\"o}lder's identity</b> <br> 
+<b> H&ouml;lder's identity</b> <br> 
 W.D. Brinda, Jason M. Klusowski and Dana Yang.
 <i>Statistics & Probability Letters</i>, Volume 148, Pages 150-154, 2019.
 <br>
