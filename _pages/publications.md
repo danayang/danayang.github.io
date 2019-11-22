@@ -1,16 +1,10 @@
 ---
 layout: archive
-title: "Publications"
-permalink: /publications/
+title: "Research"
+permalink: /research/
 author_profile: true
 ---
-
-{% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
-{% endif %}
-
-{% include base_path %}
-
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+<br>
+<b>[Consistent recovery threshold of hidden nearest neighbor graphs](https://arxiv.org/abs/1911.08004)</b> <br> 
+Jian Ding, Yihong Wu, Jiaming Xu and Dana Yang.
+<i>arXiv preprint arXiv:1911.08004</i>, 2019.
