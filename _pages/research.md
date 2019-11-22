@@ -33,7 +33,7 @@ Victor-Emmanuel Brunel, Jason M. Klusowski and Dana Yang.
 <i>[arXiv](https://arxiv.org/abs/1804.09879) preprint arXiv:1804.09879, under revision for Bernoulli</i>, 2018.
 <br>
 <b> Remarks on Kneip's linear smoothers</b> <br> 
-S{\"o}ren R. K{\"u}nzel, David Pollard and Dana Yang.
+S&uoren R. K{\"u}nzel, David Pollard and Dana Yang.
 <i>[arXiv](https://arxiv.org/abs/1405.1744) preprint arXiv:1405.1744</i>, 2014.
 
 
