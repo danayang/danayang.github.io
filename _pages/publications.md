@@ -4,6 +4,8 @@ title: "Research"
 permalink: /research/
 author_profile: true
 ---
+## Preprints
+
 <br>
 <b>Consistent recovery threshold of hidden nearest neighbor graphs </b> <br> 
 Jian Ding, Yihong Wu, Jiaming Xu and Dana Yang.
