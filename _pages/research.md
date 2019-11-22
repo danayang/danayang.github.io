@@ -24,6 +24,10 @@ David Pollard and Dana Yang.
 John Lafferty, David Pollard and Dana Yang.
 <i>[arXiv](https://arxiv.org/abs/1907.08646) preprint arXiv:1909.08646</i>, 2019.
 <br>
+<b> The cost-free nature of optimally tuning Tikhonov regularizers and other ordered smoothers</b> <br> 
+Pierre C. Bellec and Dana Yang.
+<i>[arXiv](https://arxiv.org/abs/1905.12517) preprint arXiv:1905.12517</i>, 2019.
+<br>
 <b> Estimation of convex supports from noisy measurements</b> <br> 
 Victor-Emmanuel Brunel, Jason M. Klusowski and Dana Yang.
 <i>[arXiv](https://arxiv.org/abs/1804.09879) preprint arXiv:1804.09879, under revision for Bernoulli</i>, 2018.
