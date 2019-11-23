@@ -85,21 +85,27 @@ Jason M. Klusowski, Dana Yang and W.D. Brinda.
 <i>IEEE Transactions on Information Theory</i>, 65(6), pages 3515-3524, 2019.
 <details>
   <summary>Abstract</summary>
-  
+  We give convergence guarantees for estimating the coefficients of a symmetric mixture of two linear regressions by expectation maximization (EM). In particular, we show that the empirical EM iterates converge to the target parameter vector at the parametric rate, provided the algorithm is initialized in an unbounded cone. In particular, if the initial guess has a sufficiently large cosine angle with the target parameter vector, a sample-splitting version of the EM algorithm converges to the true coefficient vector with high probability. Interestingly, our analysis borrows from tools used in the problem of estimating the centers of a symmetric mixture of two Gaussians by EM.
+
+We also show that the population EM operator for mixtures of two regressions is anti-contractive from the target parameter vector if the cosine angle between the input vector and the target parameter vector is too small, thereby establishing the necessity of our conic condition. Finally, we give empirical evidence supporting this theoretical observation, which suggests that the sample based EM algorithm may not converge to the target vector when initial guesses are drawn accordingly. Our simulation study also suggests that the EM algorithm performs well even under model misspecification (i.e., when the covariate and error distributions violate the model assumptions).
 </details>
 <br>
 <b> H&ouml;lder's identity</b> <br> 
 W.D. Brinda, Jason M. Klusowski and Dana Yang.
 <i>Statistics & Probability Letters</i>, Volume 148, Pages 150-154, 2019.
+[[journal]](https://www.sciencedirect.com/science/article/pii/S0167715219300148)
+[[pdf]](http://danayang.github.io/files/Holder.pdf)
 <details>
   <summary>Abstract</summary>
-  
+  We clarify that H&ouml;lder's inequality can be stated more generally than is often realized.  This is an immediate consequence of an analogous information-theoretic identity which we call <i>H&ouml;lder's identity</i>. We also explain Andrew R. Barron's original use of the identity.
 </details>
 <br>
-<b> Two dimensional Yau-Hausdorff distance with applications on comparison of DNA and protein sequences</b> <br> 
+<b> Two dimensional Yau-Hausdorff distance with applications on comparison of DNA and protein sequences</b> (undergraduate thesis) <br> 
 Kun Tian, Xiaoqian Yang, Qin Kong, Changchuan Yin, Rong L. He and Stephen S-T Yau.
 <i>PloS one</i>, 10(9), 2015.
+[[journal]](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0136577)
+[[pdf]](http://danayang.github.io/files/Yau_Hausdorff.pdf)
 <details>
   <summary>Abstract</summary>
-  
+  Comparing DNA or protein sequences plays an important role in the functional analysis of genomes. Despite many methods available for sequences comparison, few methods retain the information content of sequences. We propose a new approach, the Yau-Hausdorff method, which considers all translations and rotations when seeking the best match of graphical curves of DNA or protein sequences. The complexity of this method is lower than that of any other two dimensional minimum Hausdorff algorithm. The Yau-Hausdorff method can be used for measuring the similarity of DNA sequences based on two important tools: the Yau-Hausdorff distance and graphical representation of DNA sequences. The graphical representations of DNA sequences conserve all sequence information and the Yau-Hausdorff distance is mathematically proved as a true metric. Therefore, the proposed distance can preciously measure the similarity of DNA sequences. The phylogenetic analyses of DNA sequences by the Yau-Hausdorff distance show the accuracy and stability of our approach in similarity comparison of DNA or protein sequences. This study demonstrates that Yau-Hausdorff distance is a natural metric for DNA and protein sequences with high level of stability. The approach can be also applied to similarity analysis of protein sequences by graphic representations, as well as general two dimensional shape matching.
 </details>
