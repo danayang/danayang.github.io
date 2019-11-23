@@ -4,7 +4,11 @@ title: "Research"
 permalink: /research/
 author_profile: true
 ---
+## Thesis
+<b>A few topics in statistics</b>
+[[pdf]](http://danayang.github.io/files/thesis.pdf)
 
+(Perhaps don't read this -- much improved versions of all the chapters are on arXiv)
 
 ## Preprints
 <br>
