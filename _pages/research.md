@@ -7,7 +7,7 @@ author_profile: true
 ## Thesis
 <b>A few topics in statistics</b>
 [[pdf]](http://danayang.github.io/files/thesis.pdf)
-
+br{line-height:10px}
 (Perhaps don't read this -- much improved versions of all the chapters are on arXiv)
 
 ## Preprints
