@@ -74,6 +74,7 @@ S&ouml;ren R. K&uuml;nzel, David Pollard and Dana Yang.
 Dana Yang.
 <i>Electronic Journal of Statistics</i>, 13(2), pages 3082-3094, 2019. 
 [[journal]](https://projecteuclid.org/euclid.ejs/1569290683)
+[[pdf]](http://danayang.github.io/files/betaone.pdf)
 <details>
   <summary>Abstract</summary>
   It is well known that high-dimensional procedures like the LASSO provide biased estimators of parameters in a linear model. In a 2014 paper Zhang and Zhang showed how to remove this bias by means of a two-step procedure. We show that de-biasing can also be achieved by a one-step estimator, the form of which inspires the development of a Bayesian analogue of the frequentists' de-biasing techniques.
