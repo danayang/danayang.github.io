@@ -11,7 +11,6 @@ author_profile: true
 (Perhaps don't read this -- much improved versions of all the chapters are on arXiv)
 
 ## Preprints
-<br>
 <b>Consistent recovery threshold of hidden nearest neighbor graphs </b> <br> 
 Jian Ding, Yihong Wu, Jiaming Xu and Dana Yang.
 <i>[arXiv](https://arxiv.org/abs/1911.08004) preprint arXiv:1911.08004</i>, 2019.
@@ -73,7 +72,6 @@ S&ouml;ren R. K&uuml;nzel, David Pollard and Dana Yang.
 
 
 ## Publications
-<br>
 <b> Posterior asymptotic normality for an individual coordinate in high-dimensional linear regression</b> <br>
 Dana Yang.
 <i>Electronic Journal of Statistics</i>, 13(2), pages 3082-3094, 2019. 
