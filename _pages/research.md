@@ -83,6 +83,8 @@ Dana Yang.
 <b> Estimating the coefficients of a mixture of two linear regressions by expectation maximization</b> <br> 
 Jason M. Klusowski, Dana Yang and W.D. Brinda.
 <i>IEEE Transactions on Information Theory</i>, 65(6), pages 3515-3524, 2019.
+[[journal]](https://ieeexplore.ieee.org/abstract/document/8606170)
+[[pdf]](http://danayang.github.io/files/mix_linear.pdf)
 <details>
   <summary>Abstract</summary>
   We give convergence guarantees for estimating the coefficients of a symmetric mixture of two linear regressions by expectation maximization (EM). In particular, we show that the empirical EM iterates converge to the target parameter vector at the parametric rate, provided the algorithm is initialized in an unbounded cone. In particular, if the initial guess has a sufficiently large cosine angle with the target parameter vector, a sample-splitting version of the EM algorithm converges to the true coefficient vector with high probability. Interestingly, our analysis borrows from tools used in the problem of estimating the centers of a symmetric mixture of two Gaussians by EM.
@@ -101,7 +103,7 @@ W.D. Brinda, Jason M. Klusowski and Dana Yang.
 </details>
 <br>
 <b> Two dimensional Yau-Hausdorff distance with applications on comparison of DNA and protein sequences</b> (undergraduate thesis) <br> 
-Kun Tian, Xiaoqian Yang, Qin Kong, Changchuan Yin, Rong L. He and Stephen S-T Yau.
+Kun Tian, Xiaoqian (Dana) Yang, Qin Kong, Changchuan Yin, Rong L. He and Stephen S-T Yau.
 <i>PloS one</i>, 10(9), 2015.
 [[journal]](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0136577)
 [[pdf]](http://danayang.github.io/files/Yau_Hausdorff.pdf)
