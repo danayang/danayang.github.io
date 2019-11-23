@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Dana (Xiaoqian) Yang__website under construction__"
 title_separator          : "-"
 name                     : &name "Dana (Xiaoqian) Yang__website under construction__"
-description              : &description "Postdoc at Duke University"
+description              : &description "Postdoc at Duke University\n Supervisor: Prof. Jiaming Xu"
 url                      : https://danayang.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "danayang/academicpages.github.io"
@@ -84,7 +84,7 @@ author:
   avatar           : "profile.png"
   bio              : "Postdoc at Duke University"
   location         : "Durham, North Carolina"
-  employer         : "Supervisor:        Prof. Jiaming Xu"
+  employer         : 
   pubmed           : 
   googlescholar    : https://scholar.google.com/citations?user=-QMned0AAAAJ&hl=en&oi=sra
   email            :
