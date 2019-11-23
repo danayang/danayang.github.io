@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a postdoc at Duke University Fuqua school of Business, and I am working with Prof. Jiaming Xu. This summer I graduated from my PhD program in statistics and data science at Yale University. At Yale I was co-advised by Prof. David Pollard, Prof. Yihong Wu and Prof. John Lafferty.
+I am a postdoc at Duke University Fuqua school of Business, working with Prof. Jiaming Xu. This summer I graduated from my PhD program in statistics and data science at Yale University. At Yale I was co-advised by Prof. David Pollard, Prof. Yihong Wu and Prof. John Lafferty.
 
 Research interests
 ======
