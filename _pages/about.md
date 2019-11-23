@@ -26,7 +26,7 @@ My research interests are so unthemed I ended up naming my PhD thesis "A few top
 Contact
 ======
 ### Email
-[firstname.lastname][at]duke.edu
+xiaoqian.yang[at]duke.edu
 
 ### Office
 W320, 100 Fuqua Drive  
