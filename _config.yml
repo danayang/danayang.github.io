@@ -7,9 +7,9 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Dana (Xiaoqian) Yang__website under construction__"
+title                    : "Dana (Xiaoqian) Yang"
 title_separator          : "-"
-name                     : &name "Dana (Xiaoqian) Yang__website under construction__"
+name                     : &name "Dana (Xiaoqian) Yang"
 description              : &description "Postdoc at Duke University"
 url                      : https://danayang.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"

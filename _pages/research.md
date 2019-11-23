@@ -8,7 +8,7 @@ author_profile: true
 <b>A few topics in statistics</b>
 [[pdf]](http://danayang.github.io/files/thesis.pdf)
 <br style="line-height:1px">
-(Perhaps don't read this -- much improved versions of all the chapters are on arXiv)
+(Perhaps don't read this -- much improved versions of all the chapters are available on arXiv)
 
 ## Preprints
 <b>Consistent recovery threshold of hidden nearest neighbor graphs </b> <br> 
