@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a postdoc at the Fuqua school of Business, Duke University working with [Prof. Jiaming Xu](https://faculty.fuqua.duke.edu/~jx77/). This summer I graduated from my PhD program in statistics and data science at Yale University. At Yale I was co-advised by [Prof. David Pollard](http://www.stat.yale.edu/~pollard/), [Prof. Yihong Wu](http://www.stat.yale.edu/~yw562/), and [Prof. John Lafferty](https://en.wikipedia.org/wiki/John_D._Lafferty).
+I am a postdoc at the Fuqua school of Business, Duke University working with [Prof. Jiaming Xu](https://faculty.fuqua.duke.edu/~jx77/). In summer 2019 I received my PhD degree from the department of statistics and data science at Yale University. At Yale I was co-advised by [Prof. David Pollard](http://www.stat.yale.edu/~pollard/), [Prof. Yihong Wu](http://www.stat.yale.edu/~yw562/), and [Prof. John Lafferty](https://en.wikipedia.org/wiki/John_D._Lafferty).
 
 Research interests
 ======
