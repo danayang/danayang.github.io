@@ -8,19 +8,20 @@ redirect_from:
   - /about.html
 ---
 
-I am a postdoc at Duke University Fuqua school of Business, working with Prof. Jiaming Xu. This summer I graduated from my PhD program in statistics and data science at Yale University. At Yale I was co-advised by Prof. David Pollard, Prof. Yihong Wu and Prof. John Lafferty.
+I am a postdoc at the Fuqua school of Business, Duke University working with [Prof. Jiaming Xu](https://faculty.fuqua.duke.edu/~jx77/). This summer I graduated from my PhD program in statistics and data science at Yale University. At Yale I was co-advised by [Prof. David Pollard](http://www.stat.yale.edu/~pollard/), [Prof. Yihong Wu](http://www.stat.yale.edu/~yw562/), and [Prof. John Lafferty](https://en.wikipedia.org/wiki/John_D._Lafferty).
 
 Research interests
 ======
-My research interests are so unthemed I ended up naming my PhD thesis "A few topics in statistics":
+I have a fairly eclectic collection of research interests and enjoy exploring new research directions. My PhD thesis "A few topics in statistics" is available [here](http://danayang.github.io/files/thesis.pdf).
+
 * frequentists' justification of Bayesian procedures
 * rapid mixing of Markov chains
-* network analysis
+* recovery of hidden structures from random networks
 * fairness in machine learning
-* aggregated estimation
+* analysis of aggregation estimators
 * convergence guarantee of the EM algorithm
 * shape-constrained nonparametric estimation
-* private learning
+* private sequential learning
 * ...
 
 Contact
