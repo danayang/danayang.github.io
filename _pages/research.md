@@ -32,7 +32,7 @@ This paper proposes a modification of the YWJ approach that simplifies the theor
 </details>
 <b> Fair quantile regression</b>
 [[arXiv]](https://arxiv.org/abs/1907.08646) <br> 
-John Lafferty, David Pollard and Dana Yang.
+Dana Yang, John Lafferty, and David Pollard.
 <i>arXiv:1909.08646</i>, 2019.
 <details>
   <summary>Abstract</summary>
