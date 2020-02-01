@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Dana (Xiaoqian) Yang"
+title                    : "Dana Yang"
 title_separator          : "-"
 name                     : &name "Dana Yang"
 description              : &description "Postdoc at Duke University"
@@ -80,7 +80,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Dana Yang"
+  name             : "Dana (Xiaoqian) Yang"
   avatar           : "profile.jpg"
   bio              : "Postdoc at Duke University"
   location         : "Durham, North Carolina"
