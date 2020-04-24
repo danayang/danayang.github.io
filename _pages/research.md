@@ -46,10 +46,15 @@ Pierre C. Bellec and Dana Yang.
   <summary>Abstract</summary>
   We consider the problem of selecting the best estimator among a family of Tikhonov regularized estimators, or, alternatively, to select a linear combination of these regularizers that is as good as the best regularizer in the family. Our theory reveals that if the Tikhonov regularizers share the same penalty matrix with different tuning parameters, a convex procedure based on $Q$-aggregation achieves the mean square error of the best estimator, up to a small error term no larger than $C\sigma^2$, where $\sigma^2$ is the noise level and $C>0$ is an absolute constant. Remarkably, the error term does not depend on the number of estimators as long as they share the same penalty matrix, i.e., it applies to any grid of tuning parameters, no matter how large the cardinality of the grid is. This reveals the surprising "cost-free" nature of optimally tuning Tikhonov regularizers, in striking contrast with the existing literature on aggregation of estimators where one typically has to pay a cost of $\sigma^2\log(M)$ where $M$ is the number of estimators in the family. The result holds, more generally, for any family of ordered linear smoothers. This encompasses Ridge regression as well as Principal Component Regression. The result is extended to the problem of aggregating Tikhonov regularizers with different penalty matrices.
 </details>
+
+
+
+
+## Publications
 <b> Estimation of convex supports from noisy measurements</b>
 [[arXiv]](https://arxiv.org/abs/1804.09879) <br> 
 Victor-Emmanuel Brunel, Jason M. Klusowski and Dana Yang.
-<i>arXiv:1804.09879, under revision for Bernoulli</i>, 2018.
+to appear in <i>Bernoulli</i>, 2020.
 <details>
   <summary>Abstract</summary>
   A popular class of problem in statistics deals with estimating the support of a density from $n$ observations drawn at random from a $d$-dimensional distribution. The one-dimensional case reduces to estimating the end points of a univariate density. In practice, an experimenter may only have access to a noisy version of the original data. Therefore, a more realistic model allows for the observations to be contaminated with additive noise.
@@ -57,9 +62,6 @@ Victor-Emmanuel Brunel, Jason M. Klusowski and Dana Yang.
 In this paper, we consider estimation of convex bodies when the additive noise is distributed according to a multivariate Gaussian distribution, even though our techniques could easily be adapted to other noise distributions. Unlike standard methods in deconvolution that are implemented by thresholding a kernel density estimate, our method avoids tuning parameters and Fourier transforms altogether. We show that our estimator, computable in $(O(\ln n))^{(d-1)/2}$ time, converges at a rate of $O_d(\log\log n/\sqrt{\log n})$ in Hausdorff distance, in accordance with the polylogarithmic rates encountered in Gaussian deconvolution problems. Part of our analysis also involves the optimality of the proposed estimator. We provide a lower bound for the minimax rate of estimation in Hausdorff distance that is $\Omega_d(1/\log^2 n)$.
 </details>
 
-
-
-## Publications
 <b> Posterior asymptotic normality for an individual coordinate in high-dimensional linear regression</b>
 [[journal]](https://projecteuclid.org/euclid.ejs/1569290683)
 [[pdf]](http://danayang.github.io/files/betaone.pdf)<br>
