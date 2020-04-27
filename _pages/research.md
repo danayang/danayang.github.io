@@ -54,7 +54,7 @@ Pierre C. Bellec and Dana Yang.
 <b> Estimation of convex supports from noisy measurements</b>
 [[arXiv]](https://arxiv.org/abs/1804.09879) <br> 
 Victor-Emmanuel Brunel, Jason M. Klusowski and Dana Yang.
-to appear in <i>Bernoulli</i>, 2020.
+<i>Bernoulli</i>, to appear, 2020.
 <details>
   <summary>Abstract</summary>
   A popular class of problem in statistics deals with estimating the support of a density from $n$ observations drawn at random from a $d$-dimensional distribution. The one-dimensional case reduces to estimating the end points of a univariate density. In practice, an experimenter may only have access to a noisy version of the original data. Therefore, a more realistic model allows for the observations to be contaminated with additive noise.
