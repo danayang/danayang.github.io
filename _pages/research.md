@@ -19,8 +19,8 @@ Jiaming Xu, Kuang Xu and Dana Yang.
 David Pollard and Dana Yang.
 <i>arXiv:1909.11773</i>, 2019.
 <details>
-  <summary>Abstract</summary>
-  The Metropolis-Hastings method is often used to construct a Markov chain with a given $\pi$ as its stationary distribution. The method works even if $\pi$ is known only up to an intractable constant of proportionality. Polynomial time convergence results for such chains (rapid mixing) are hard to obtain for high dimensional probability models where the size of the state space potentially grows exponentially with the model dimension. In a Bayesian context, Yang, Wainwright and Jordan (2016) (=YWJ) used the path method to prove rapid mixing for high dimensional linear models.
+<summary>Abstract</summary>
+The Metropolis-Hastings method is often used to construct a Markov chain with a given $\pi$ as its stationary distribution. The method works even if $\pi$ is known only up to an intractable constant of proportionality. Polynomial time convergence results for such chains (rapid mixing) are hard to obtain for high dimensional probability models where the size of the state space potentially grows exponentially with the model dimension. In a Bayesian context, Yang, Wainwright and Jordan (2016) (=YWJ) used the path method to prove rapid mixing for high dimensional linear models.
 This paper proposes a modification of the YWJ approach that simplifies the theoretical argument and improves the rate of convergence. The new approach is illustrated by an application to an exponentially weighted aggregation estimator. 
 </details>
 <b> Fair quantile regression</b>
