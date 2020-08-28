@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 ## Preprints
-<b> Optimal query complexity for private sequential learning</b>
+<b> Optimal query complexity for private sequential learning against eavesdropping</b>
 [[arXiv]](https://arxiv.org/abs/1909.09836) <br> 
 Jiaming Xu, Kuang Xu and Dana Yang.
 <i>arXiv:1909.09836</i>, 2019.
