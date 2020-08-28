@@ -6,16 +6,9 @@ author_profile: true
 ---
 
 ## Preprints
-<b>Consistent recovery threshold of hidden nearest neighbor graphs </b>[[arXiv]](https://arxiv.org/abs/1911.08004) <br> 
-Jian Ding, Yihong Wu, Jiaming Xu and Dana Yang.
-<i>arXiv:1911.08004</i>, 2019.
-<details>
-  <summary>Abstract</summary>
-  Motivated by applications such as discovering strong ties in social networks and assembling genome subsequences in biology, we study the problem of recovering a hidden $2k$-nearest neighbor (NN) graph in an $n$-vertex complete graph, whose edge weights are independent and distributed according to $P_n$ for edges in the hidden $2k$-NN graph and $Q_n$ otherwise. The special case of Bernoulli distributions corresponds to a variant of the Watts-Strogatz small-world graph. We focus on two types of asymptotic recovery guarantees as $n\to \infty$: (1) exact recovery: all edges are classified correctly with probability tending to one; (2) almost exact recovery: the expected number of misclassified edges is $o(nk)$. We show that the maximum likelihood estimator achieves (1) exact recovery for $2 \le k \le n^{o(1)}$ if $\lim\inf\frac{2\alpha_n}{\log n}>1$; (2) almost exact recovery for $1\le k\le o\left(\frac{\log n}{\log\log n}\right)$ if $\liminf \frac{kD(P_n||Q_n)}{\log n}>1$, where $\alpha_n \triangleq -2 \log \int \sqrt{d P_n d Q_n}$ is the R&eacute;nyi divergence of order $\frac{1}{2}$ and $D(P_n||Q_n)$ is the Kullback-Leibler divergence. Under mild distributional assumptions, these conditions are shown to be information-theoretically necessary for any algorithm to succeed. A key challenge in the analysis is the enumeration of $2k$-NN graphs that differ from the hidden one by a given number of edges.
-</details>
 <b> Optimal query complexity for private sequential learning</b>
 [[arXiv]](https://arxiv.org/abs/1909.09836) <br> 
-Jiaming Xu and Dana Yang.
+Jiaming Xu, Kuang Xu and Dana Yang.
 <i>arXiv:1909.09836</i>, 2019.
 <details>
   <summary>Abstract</summary>
@@ -38,22 +31,12 @@ Dana Yang, John Lafferty, and David Pollard.
   <summary>Abstract</summary>
   Quantile regression is a tool for learning conditional distributions. In this paper we study quantile regression in the setting where a protected attribute is unavailable when fitting the model. This can lead to "unfair" quantile estimators for which the effective quantiles are very different for the subpopulations defined by the protected attribute. We propose a procedure for adjusting the estimator on a heldout sample where the protected attribute is available. The main result of the paper is an empirical process analysis showing that the adjustment leads to a fair estimator for which the target quantiles are brought into balance, in a statistical sense that we call $\sqrt{n}$-fairness. We illustrate the ideas and adjustment procedure on a dataset of $200{,}000$ live births, where the objective is to characterize the dependence of the birth weights of the babies on demographic attributes of the birth mother; the protected attribute is the mother's race.
 </details>
-<b> The cost-free nature of optimally tuning Tikhonov regularizers and other ordered smoothers</b>
-[[arXiv]](https://arxiv.org/abs/1905.12517) <br> 
-Pierre C. Bellec and Dana Yang.
-<i>arXiv:1905.12517</i>, 2019.
-<details>
-  <summary>Abstract</summary>
-  We consider the problem of selecting the best estimator among a family of Tikhonov regularized estimators, or, alternatively, to select a linear combination of these regularizers that is as good as the best regularizer in the family. Our theory reveals that if the Tikhonov regularizers share the same penalty matrix with different tuning parameters, a convex procedure based on $Q$-aggregation achieves the mean square error of the best estimator, up to a small error term no larger than $C\sigma^2$, where $\sigma^2$ is the noise level and $C>0$ is an absolute constant. Remarkably, the error term does not depend on the number of estimators as long as they share the same penalty matrix, i.e., it applies to any grid of tuning parameters, no matter how large the cardinality of the grid is. This reveals the surprising "cost-free" nature of optimally tuning Tikhonov regularizers, in striking contrast with the existing literature on aggregation of estimators where one typically has to pay a cost of $\sigma^2\log(M)$ where $M$ is the number of estimators in the family. The result holds, more generally, for any family of ordered linear smoothers. This encompasses Ridge regression as well as Principal Component Regression. The result is extended to the problem of aggregating Tikhonov regularizers with different penalty matrices.
-</details>
 
 
-
-
-## Publications
+## Journal publications
 <b> Estimation of convex supports from noisy measurements</b>
 [[arXiv]](https://arxiv.org/abs/1804.09879) <br> 
-Victor-Emmanuel Brunel, Jason M. Klusowski and Dana Yang.
+Victor-Emmanuel Brunel, Jason M. Klusowski and Dana Yang.<br> 
 <i>Bernoulli</i>, to appear, 2020.
 <details>
   <summary>Abstract</summary>
@@ -65,7 +48,7 @@ In this paper, we consider estimation of convex bodies when the additive noise i
 <b> Posterior asymptotic normality for an individual coordinate in high-dimensional linear regression</b>
 [[journal]](https://projecteuclid.org/euclid.ejs/1569290683)
 [[pdf]](http://danayang.github.io/files/betaone.pdf)<br>
-Dana Yang.
+Dana Yang.<br> 
 <i>Electronic Journal of Statistics</i>, 13(2), pages 3082-3094, 2019.
 <details>
   <summary>Abstract</summary>
@@ -74,7 +57,7 @@ Dana Yang.
 <b> Estimating the coefficients of a mixture of two linear regressions by expectation maximization</b>
 [[journal]](https://ieeexplore.ieee.org/abstract/document/8606170)
 [[pdf]](http://danayang.github.io/files/mix_linear.pdf)<br> 
-Jason M. Klusowski, Dana Yang and W.D. Brinda.
+Jason M. Klusowski, Dana Yang and W.D. Brinda.<br> 
 <i>IEEE Transactions on Information Theory</i>, 65(6), pages 3515-3524, 2019.
 <details>
   <summary>Abstract</summary>
@@ -94,12 +77,30 @@ W.D. Brinda, Jason M. Klusowski and Dana Yang.
 <b> Two dimensional Yau-Hausdorff distance with applications on comparison of DNA and protein sequences</b> (undergraduate thesis)
 [[journal]](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0136577)
 [[pdf]](http://danayang.github.io/files/Yau_Hausdorff.pdf) <br> 
-Kun Tian, Xiaoqian (Dana) Yang, Qin Kong, Changchuan Yin, Rong L. He and Stephen S-T Yau.
+Kun Tian, Xiaoqian (Dana) Yang, Qin Kong, Changchuan Yin, Rong L. He and Stephen S-T Yau.<br> 
 <i>PloS one</i>, 10(9), 2015.
 <details>
   <summary>Abstract</summary>
   Comparing DNA or protein sequences plays an important role in the functional analysis of genomes. Despite many methods available for sequences comparison, few methods retain the information content of sequences. We propose a new approach, the Yau-Hausdorff method, which considers all translations and rotations when seeking the best match of graphical curves of DNA or protein sequences. The complexity of this method is lower than that of any other two dimensional minimum Hausdorff algorithm. The Yau-Hausdorff method can be used for measuring the similarity of DNA sequences based on two important tools: the Yau-Hausdorff distance and graphical representation of DNA sequences. The graphical representations of DNA sequences conserve all sequence information and the Yau-Hausdorff distance is mathematically proved as a true metric. Therefore, the proposed distance can preciously measure the similarity of DNA sequences. The phylogenetic analyses of DNA sequences by the Yau-Hausdorff distance show the accuracy and stability of our approach in similarity comparison of DNA or protein sequences. This study demonstrates that Yau-Hausdorff distance is a natural metric for DNA and protein sequences with high level of stability. The approach can be also applied to similarity analysis of protein sequences by graphic representations, as well as general two dimensional shape matching.
 </details>
+
+## Conference publications
+<b> The cost-free nature of optimally tuning Tikhonov regularizers and other ordered smoothers</b>
+[[arXiv]](https://arxiv.org/abs/1905.12517) <br> 
+Pierre C. Bellec and Dana Yang.<br> 
+<i>ICML</i>, 2020.
+<details>
+  <summary>Abstract</summary>
+  We consider the problem of selecting the best estimator among a family of Tikhonov regularized estimators, or, alternatively, to select a linear combination of these regularizers that is as good as the best regularizer in the family. Our theory reveals that if the Tikhonov regularizers share the same penalty matrix with different tuning parameters, a convex procedure based on $Q$-aggregation achieves the mean square error of the best estimator, up to a small error term no larger than $C\sigma^2$, where $\sigma^2$ is the noise level and $C>0$ is an absolute constant. Remarkably, the error term does not depend on the number of estimators as long as they share the same penalty matrix, i.e., it applies to any grid of tuning parameters, no matter how large the cardinality of the grid is. This reveals the surprising "cost-free" nature of optimally tuning Tikhonov regularizers, in striking contrast with the existing literature on aggregation of estimators where one typically has to pay a cost of $\sigma^2\log(M)$ where $M$ is the number of estimators in the family. The result holds, more generally, for any family of ordered linear smoothers. This encompasses Ridge regression as well as Principal Component Regression. The result is extended to the problem of aggregating Tikhonov regularizers with different penalty matrices.
+</details>
+<b>Consistent recovery threshold of hidden nearest neighbor graphs </b>[[arXiv]](https://arxiv.org/abs/1911.08004) <br> 
+Jian Ding, Yihong Wu, Jiaming Xu and Dana Yang.<br> 
+<i>COLT</i>, 2020.
+<details>
+  <summary>Abstract</summary>
+  Motivated by applications such as discovering strong ties in social networks and assembling genome subsequences in biology, we study the problem of recovering a hidden $2k$-nearest neighbor (NN) graph in an $n$-vertex complete graph, whose edge weights are independent and distributed according to $P_n$ for edges in the hidden $2k$-NN graph and $Q_n$ otherwise. The special case of Bernoulli distributions corresponds to a variant of the Watts-Strogatz small-world graph. We focus on two types of asymptotic recovery guarantees as $n\to \infty$: (1) exact recovery: all edges are classified correctly with probability tending to one; (2) almost exact recovery: the expected number of misclassified edges is $o(nk)$. We show that the maximum likelihood estimator achieves (1) exact recovery for $2 \le k \le n^{o(1)}$ if $\lim\inf\frac{2\alpha_n}{\log n}>1$; (2) almost exact recovery for $1\le k\le o\left(\frac{\log n}{\log\log n}\right)$ if $\liminf \frac{kD(P_n||Q_n)}{\log n}>1$, where $\alpha_n \triangleq -2 \log \int \sqrt{d P_n d Q_n}$ is the R&eacute;nyi divergence of order $\frac{1}{2}$ and $D(P_n||Q_n)$ is the Kullback-Leibler divergence. Under mild distributional assumptions, these conditions are shown to be information-theoretically necessary for any algorithm to succeed. A key challenge in the analysis is the enumeration of $2k$-NN graphs that differ from the hidden one by a given number of edges.
+</details>
+
 
 ## Miscellaneous manuscripts
 <b> Remarks on Kneip's linear smoothers</b>
