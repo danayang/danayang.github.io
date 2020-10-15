@@ -5,33 +5,6 @@ permalink: /research/
 author_profile: true
 ---
 
-## Preprints
-<b> Optimal query complexity for private sequential learning against eavesdropping</b>
-[[arXiv]](https://arxiv.org/abs/1909.09836) <br> 
-Jiaming Xu, Kuang Xu and Dana Yang.
-<i>arXiv:1909.09836</i>, 2019.
-<details>
-  <summary>Abstract</summary>
-  Motivated by privacy concerns in many practical applications such as Federated Learning, we study a stylized private sequential learning problem: a learner tries to estimate an unknown scalar value, by sequentially querying an external database and receiving binary responses; meanwhile, a third-party adversary observes the learner's queries but not the responses. The learner's goal is to design a querying strategy with the minimum number of queries (optimal query complexity) so that she can accurately estimate the true value, while the adversary even with the complete knowledge of her querying strategy cannot. Prior work has obtained both upper and lower bounds on the optimal query complexity, however, these upper and lower bounds have a large gap in general. In this paper, we construct new querying strategies and prove almost matching upper and lower bounds, providing a complete characterization of the optimal query complexity as a function of the estimation accuracy and the desired levels of privacy. We also extend the results to the sequential learning model in higher dimensions.
-</details>
-<b> Rapid mixing of a Markov chain for the exponentially weighted aggregation estimator</b>
-[[arXiv]](https://arxiv.org/abs/1909.11773) <br> 
-David Pollard and Dana Yang.
-<i>arXiv:1909.11773</i>, 2019.
-<details>
-<summary>Abstract</summary>
-The Metropolis-Hastings method is often used to construct a Markov chain with a given $\pi$ as its stationary distribution. The method works even if $\pi$ is known only up to an intractable constant of proportionality. Polynomial time convergence results for such chains (rapid mixing) are hard to obtain for high dimensional probability models where the size of the state space potentially grows exponentially with the model dimension. In a Bayesian context, Yang, Wainwright and Jordan (2016) (=YWJ) used the path method to prove rapid mixing for high dimensional linear models.
-This paper proposes a modification of the YWJ approach that simplifies the theoretical argument and improves the rate of convergence. The new approach is illustrated by an application to an exponentially weighted aggregation estimator. 
-</details>
-<b> Fair quantile regression</b>
-[[arXiv]](https://arxiv.org/abs/1907.08646) <br> 
-Dana Yang, John Lafferty, and David Pollard.
-<i>arXiv:1909.08646</i>, 2019.
-<details>
-  <summary>Abstract</summary>
-  Quantile regression is a tool for learning conditional distributions. In this paper we study quantile regression in the setting where a protected attribute is unavailable when fitting the model. This can lead to "unfair" quantile estimators for which the effective quantiles are very different for the subpopulations defined by the protected attribute. We propose a procedure for adjusting the estimator on a heldout sample where the protected attribute is available. The main result of the paper is an empirical process analysis showing that the adjustment leads to a fair estimator for which the target quantiles are brought into balance, in a statistical sense that we call $\sqrt{n}$-fairness. We illustrate the ideas and adjustment procedure on a dataset of $200{,}000$ live births, where the objective is to characterize the dependence of the birth weights of the babies on demographic attributes of the birth mother; the protected attribute is the mother's race.
-</details>
-
 
 ## Journal publications
 <b> Estimation of convex supports from noisy measurements</b>
@@ -99,6 +72,33 @@ Jian Ding, Yihong Wu, Jiaming Xu and Dana Yang.<br>
 <details>
   <summary>Abstract</summary>
   Motivated by applications such as discovering strong ties in social networks and assembling genome subsequences in biology, we study the problem of recovering a hidden $2k$-nearest neighbor (NN) graph in an $n$-vertex complete graph, whose edge weights are independent and distributed according to $P_n$ for edges in the hidden $2k$-NN graph and $Q_n$ otherwise. The special case of Bernoulli distributions corresponds to a variant of the Watts-Strogatz small-world graph. We focus on two types of asymptotic recovery guarantees as $n\to \infty$: (1) exact recovery: all edges are classified correctly with probability tending to one; (2) almost exact recovery: the expected number of misclassified edges is $o(nk)$. We show that the maximum likelihood estimator achieves (1) exact recovery for $2 \le k \le n^{o(1)}$ if $\lim\inf\frac{2\alpha_n}{\log n}>1$; (2) almost exact recovery for $1\le k\le o\left(\frac{\log n}{\log\log n}\right)$ if $\liminf \frac{kD(P_n||Q_n)}{\log n}>1$, where $\alpha_n \triangleq -2 \log \int \sqrt{d P_n d Q_n}$ is the R&eacute;nyi divergence of order $\frac{1}{2}$ and $D(P_n||Q_n)$ is the Kullback-Leibler divergence. Under mild distributional assumptions, these conditions are shown to be information-theoretically necessary for any algorithm to succeed. A key challenge in the analysis is the enumeration of $2k$-NN graphs that differ from the hidden one by a given number of edges.
+</details>
+
+## Preprints
+<b> Optimal query complexity for private sequential learning against eavesdropping</b>
+[[arXiv]](https://arxiv.org/abs/1909.09836) <br> 
+Jiaming Xu, Kuang Xu and Dana Yang.
+<i>arXiv:1909.09836</i>, 2019.
+<details>
+  <summary>Abstract</summary>
+  Motivated by privacy concerns in many practical applications such as Federated Learning, we study a stylized private sequential learning problem: a learner tries to estimate an unknown scalar value, by sequentially querying an external database and receiving binary responses; meanwhile, a third-party adversary observes the learner's queries but not the responses. The learner's goal is to design a querying strategy with the minimum number of queries (optimal query complexity) so that she can accurately estimate the true value, while the adversary even with the complete knowledge of her querying strategy cannot. Prior work has obtained both upper and lower bounds on the optimal query complexity, however, these upper and lower bounds have a large gap in general. In this paper, we construct new querying strategies and prove almost matching upper and lower bounds, providing a complete characterization of the optimal query complexity as a function of the estimation accuracy and the desired levels of privacy. We also extend the results to the sequential learning model in higher dimensions.
+</details>
+<b> Rapid mixing of a Markov chain for the exponentially weighted aggregation estimator</b>
+[[arXiv]](https://arxiv.org/abs/1909.11773) <br> 
+David Pollard and Dana Yang.
+<i>arXiv:1909.11773</i>, 2019.
+<details>
+<summary>Abstract</summary>
+The Metropolis-Hastings method is often used to construct a Markov chain with a given $\pi$ as its stationary distribution. The method works even if $\pi$ is known only up to an intractable constant of proportionality. Polynomial time convergence results for such chains (rapid mixing) are hard to obtain for high dimensional probability models where the size of the state space potentially grows exponentially with the model dimension. In a Bayesian context, Yang, Wainwright and Jordan (2016) (=YWJ) used the path method to prove rapid mixing for high dimensional linear models.
+This paper proposes a modification of the YWJ approach that simplifies the theoretical argument and improves the rate of convergence. The new approach is illustrated by an application to an exponentially weighted aggregation estimator. 
+</details>
+<b> Fair quantile regression</b>
+[[arXiv]](https://arxiv.org/abs/1907.08646) <br> 
+Dana Yang, John Lafferty, and David Pollard.
+<i>arXiv:1909.08646</i>, 2019.
+<details>
+  <summary>Abstract</summary>
+  Quantile regression is a tool for learning conditional distributions. In this paper we study quantile regression in the setting where a protected attribute is unavailable when fitting the model. This can lead to "unfair" quantile estimators for which the effective quantiles are very different for the subpopulations defined by the protected attribute. We propose a procedure for adjusting the estimator on a heldout sample where the protected attribute is available. The main result of the paper is an empirical process analysis showing that the adjustment leads to a fair estimator for which the target quantiles are brought into balance, in a statistical sense that we call $\sqrt{n}$-fairness. We illustrate the ideas and adjustment procedure on a dataset of $200{,}000$ live births, where the objective is to characterize the dependence of the birth weights of the babies on demographic attributes of the birth mother; the protected attribute is the mother's race.
 </details>
 
 
