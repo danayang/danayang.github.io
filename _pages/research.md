@@ -81,7 +81,24 @@ Jiaming Xu, Kuang Xu and Dana Yang.
 <i>arXiv:1909.09836</i>, 2019.
 <details>
   <summary>Abstract</summary>
-  Motivated by privacy concerns in many practical applications such as Federated Learning, we study a stylized private sequential learning problem: a learner tries to estimate an unknown scalar value, by sequentially querying an external database and receiving binary responses; meanwhile, a third-party adversary observes the learner's queries but not the responses. The learner's goal is to design a querying strategy with the minimum number of queries (optimal query complexity) so that she can accurately estimate the true value, while the adversary even with the complete knowledge of her querying strategy cannot. Prior work has obtained both upper and lower bounds on the optimal query complexity, however, these upper and lower bounds have a large gap in general. In this paper, we construct new querying strategies and prove almost matching upper and lower bounds, providing a complete characterization of the optimal query complexity as a function of the estimation accuracy and the desired levels of privacy. We also extend the results to the sequential learning model in higher dimensions.
+  We study the query complexity of a learner-private sequential learning problem, motivated
+by the privacy and security concerns due to eavesdropping that arise in practical applications
+such as pricing and Federated Learning. A learner tries to estimate an unknown scalar value,
+by sequentially querying an external database and receiving binary responses; meanwhile, a
+third-party adversary observes the learner’s queries but not the responses. The learner’s goal is
+to design a querying strategy with the minimum number of queries (optimal query complexity)
+so that she can accurately estimate the true value, while the eavesdropping adversary even with
+the complete knowledge of her querying strategy cannot.
+
+We develop new querying strategies and analytical techniques and use them to prove tight
+upper and lower bounds on the optimal query complexity. The bounds almost match across
+the entire parameter range, substantially improving upon existing results. We thus obtain a
+complete picture of the optimal query complexity as a function of the estimation accuracy and
+the desired levels of privacy. We also extend the results to sequential learning models in higher
+dimensions, and where the binary responses are noisy. Our analysis leverages a crucial insight
+into the nature of private learning problem, which suggests that the query trajectory of an
+optimal learner can be divided into distinct phases that focus on pure learning versus learning
+and obfuscation, respectively.
 </details>
 <b>Consistent recovery threshold of hidden nearest neighbor graphs </b>[[arXiv]](https://arxiv.org/abs/1911.08004) <br> 
 Jian Ding, Yihong Wu, Jiaming Xu and Dana Yang.<br> 
