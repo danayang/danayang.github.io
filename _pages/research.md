@@ -59,7 +59,7 @@ Kun Tian, Xiaoqian (Dana) Yang, Qin Kong, Changchuan Yin, Rong L. He and Stephen
 
 ## Conference publications
 <b> The cost-free nature of optimally tuning Tikhonov regularizers and other ordered smoothers</b>
-[[arXiv]](https://arxiv.org/abs/1905.12517) <br> 
+[[pdf]](http://danayang.github.io/files/cost_free.pdf) <br> 
 Pierre C. Bellec and Dana Yang.<br> 
 <i>ICML</i>, 2020.
 <details>
