@@ -8,7 +8,7 @@ author_profile: true
 
 Optimal query complexity for private sequential learning against eavesdropping
 
-<b>International Conference on Learning Theory (ICML), 2020</b>
+<b>International Conference on Learning Theory (ICML), joint presentation with [Pierre Bellec](https://statistics.rutgers.edu/home/PCB71/), 2020</b>
 
 The cost-free nature of optimally tuning Tikhonov regularizers and other ordered smoothers
 
@@ -16,7 +16,7 @@ The cost-free nature of optimally tuning Tikhonov regularizers and other ordered
 
 Consistent recovery threshold of hidden nearest neighbor graphs
 
-NeurIPS, Privacy in Machine Learning workshop (spotlight), 2019</b>
+<b>NeurIPS, Privacy in Machine Learning workshop (spotlight), 2019</b>
 
 Optimal query complexity for private sequential learning against eavesdropping
 
@@ -28,7 +28,7 @@ Rapid mixing of a Markov chain for the exponentially weighted aggregation estima
 
 A few extensions of bias correction techniques
 
-<b>SMIL\@Y Research Meeting, Yale University, 2018</b>
+<b>SMIL{@}Y Research Meeting, Yale University, 2018</b>
 
 Fair quantile regression
 
