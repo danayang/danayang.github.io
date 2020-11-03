@@ -8,7 +8,7 @@ author_profile: true
 
 Optimal query complexity for private sequential learning against eavesdropping
 
-<b>International Conference on Learning Theory (ICML), joint presentation with [Pierre Bellec](https://statistics.rutgers.edu/home/PCB71/), 2020</b>
+<b>International Conference on Learning Theory (ICML), joint presentation with [Pierre C. Bellec](https://statistics.rutgers.edu/home/PCB71/), 2020</b>
 
 The cost-free nature of optimally tuning Tikhonov regularizers and other ordered smoothers
 
