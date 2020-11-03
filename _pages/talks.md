@@ -28,7 +28,7 @@ Rapid mixing of a Markov chain for the exponentially weighted aggregation estima
 
 A few extensions of bias correction techniques
 
-<b>SMIL{@}Y Research Meeting, Yale University, 2018</b>
+<b>SMIL@Y Research Meeting, Yale University, 2018</b>
 
 Fair quantile regression
 
