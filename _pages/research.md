@@ -58,27 +58,10 @@ Kun Tian, Xiaoqian (Dana) Yang, Qin Kong, Changchuan Yin, Rong L. He and Stephen
 </details>
 
 ## Conference publications
-<b> The cost-free nature of optimally tuning Tikhonov regularizers and other ordered smoothers</b>
-[[pdf]](http://danayang.github.io/files/cost_free.pdf) <br> 
-Pierre C. Bellec and Dana Yang.<br> 
-<i>ICML</i>, 2020.
-<details>
-  <summary>Abstract</summary>
-  We consider the problem of selecting the best estimator among a family of Tikhonov regularized estimators, or, alternatively, to select a linear combination of these regularizers that is as good as the best regularizer in the family. Our theory reveals that if the Tikhonov regularizers share the same penalty matrix with different tuning parameters, a convex procedure based on $Q$-aggregation achieves the mean square error of the best estimator, up to a small error term no larger than $C\sigma^2$, where $\sigma^2$ is the noise level and $C>0$ is an absolute constant. Remarkably, the error term does not depend on the number of estimators as long as they share the same penalty matrix, i.e., it applies to any grid of tuning parameters, no matter how large the cardinality of the grid is. This reveals the surprising "cost-free" nature of optimally tuning Tikhonov regularizers, in striking contrast with the existing literature on aggregation of estimators where one typically has to pay a cost of $\sigma^2\log(M)$ where $M$ is the number of estimators in the family. The result holds, more generally, for any family of ordered linear smoothers. This encompasses Ridge regression as well as Principal Component Regression. The result is extended to the problem of aggregating Tikhonov regularizers with different penalty matrices.
-</details>
-<b>Consistent recovery threshold of hidden nearest neighbor graphs (extended abstract) </b>[[pdf]](http://danayang.github.io/files/NN_COLT.pdf) <br> 
-Jian Ding, Yihong Wu, Jiaming Xu and Dana Yang.<br> 
-<i>COLT</i>, 2020.
-<details>
-  <summary>Abstract</summary>
-  Motivated by applications such as discovering strong ties in social networks and assembling genome subsequences in biology, we study the problem of recovering a hidden $2k$-nearest neighbor (NN) graph in an $n$-vertex complete graph, whose edge weights are independent and distributed according to $P_n$ for edges in the hidden $2k$-NN graph and $Q_n$ otherwise. The special case of Bernoulli distributions corresponds to a variant of the Watts-Strogatz small-world graph. We focus on two types of asymptotic recovery guarantees as $n\to \infty$: (1) exact recovery: all edges are classified correctly with probability tending to one; (2) almost exact recovery: the expected number of misclassified edges is $o(nk)$. We show that the maximum likelihood estimator achieves (1) exact recovery for $2 \le k \le n^{o(1)}$ if $\lim\inf\frac{2\alpha_n}{\log n}>1$; (2) almost exact recovery for $1\le k\le o\left(\frac{\log n}{\log\log n}\right)$ if $\liminf \frac{kD(P_n||Q_n)}{\log n}>1$, where $\alpha_n \triangleq -2 \log \int \sqrt{d P_n d Q_n}$ is the R&eacute;nyi divergence of order $\frac{1}{2}$ and $D(P_n||Q_n)$ is the Kullback-Leibler divergence. Under mild distributional assumptions, these conditions are shown to be information-theoretically necessary for any algorithm to succeed. A key challenge in the analysis is the enumeration of $2k$-NN graphs that differ from the hidden one by a given number of edges. We also analyze several computationally efficient algorithms are provide sufficient conditions under which they ahieve exact/almost exact recovery. In particular, we develop a polynomial-time algorithm that attains the threshold for exact recovery under the small-world model.
-</details>
-
-## Preprints
 <b> Optimal query complexity for private sequential learning against eavesdropping</b>
 [[arXiv]](https://arxiv.org/abs/1909.09836) <br> 
 Jiaming Xu, Kuang Xu and Dana Yang.
-<i>arXiv:1909.09836</i>, 2019.
+<i>AISTATS</i>, 2021.
 <details>
   <summary>Abstract</summary>
   We study the query complexity of a learner-private sequential learning problem, motivated
@@ -100,9 +83,27 @@ into the nature of private learning problem, which suggests that the query traje
 optimal learner can be divided into distinct phases that focus on pure learning versus learning
 and obfuscation, respectively.
 </details>
+
+<b> The cost-free nature of optimally tuning Tikhonov regularizers and other ordered smoothers</b>
+[[pdf]](http://danayang.github.io/files/cost_free.pdf) <br> 
+Pierre C. Bellec and Dana Yang.<br> 
+<i>ICML</i>, 2020.
+<details>
+  <summary>Abstract</summary>
+  We consider the problem of selecting the best estimator among a family of Tikhonov regularized estimators, or, alternatively, to select a linear combination of these regularizers that is as good as the best regularizer in the family. Our theory reveals that if the Tikhonov regularizers share the same penalty matrix with different tuning parameters, a convex procedure based on $Q$-aggregation achieves the mean square error of the best estimator, up to a small error term no larger than $C\sigma^2$, where $\sigma^2$ is the noise level and $C>0$ is an absolute constant. Remarkably, the error term does not depend on the number of estimators as long as they share the same penalty matrix, i.e., it applies to any grid of tuning parameters, no matter how large the cardinality of the grid is. This reveals the surprising "cost-free" nature of optimally tuning Tikhonov regularizers, in striking contrast with the existing literature on aggregation of estimators where one typically has to pay a cost of $\sigma^2\log(M)$ where $M$ is the number of estimators in the family. The result holds, more generally, for any family of ordered linear smoothers. This encompasses Ridge regression as well as Principal Component Regression. The result is extended to the problem of aggregating Tikhonov regularizers with different penalty matrices.
+</details>
+<b>Consistent recovery threshold of hidden nearest neighbor graphs (extended abstract) </b>[[pdf]](http://danayang.github.io/files/NN_COLT.pdf) <br> 
+Jian Ding, Yihong Wu, Jiaming Xu and Dana Yang.<br> 
+<i>COLT</i>, 2020.
+<details>
+  <summary>Abstract</summary>
+  Motivated by applications such as discovering strong ties in social networks and assembling genome subsequences in biology, we study the problem of recovering a hidden $2k$-nearest neighbor (NN) graph in an $n$-vertex complete graph, whose edge weights are independent and distributed according to $P_n$ for edges in the hidden $2k$-NN graph and $Q_n$ otherwise. The special case of Bernoulli distributions corresponds to a variant of the Watts-Strogatz small-world graph. We focus on two types of asymptotic recovery guarantees as $n\to \infty$: (1) exact recovery: all edges are classified correctly with probability tending to one; (2) almost exact recovery: the expected number of misclassified edges is $o(nk)$. We show that the maximum likelihood estimator achieves (1) exact recovery for $2 \le k \le n^{o(1)}$ if $\lim\inf\frac{2\alpha_n}{\log n}>1$; (2) almost exact recovery for $1\le k\le o\left(\frac{\log n}{\log\log n}\right)$ if $\liminf \frac{kD(P_n||Q_n)}{\log n}>1$, where $\alpha_n \triangleq -2 \log \int \sqrt{d P_n d Q_n}$ is the R&eacute;nyi divergence of order $\frac{1}{2}$ and $D(P_n||Q_n)$ is the Kullback-Leibler divergence. Under mild distributional assumptions, these conditions are shown to be information-theoretically necessary for any algorithm to succeed. A key challenge in the analysis is the enumeration of $2k$-NN graphs that differ from the hidden one by a given number of edges. We also analyze several computationally efficient algorithms are provide sufficient conditions under which they ahieve exact/almost exact recovery. In particular, we develop a polynomial-time algorithm that attains the threshold for exact recovery under the small-world model.
+</details>
+
+## Preprints
 <b>Consistent recovery threshold of hidden nearest neighbor graphs </b>[[arXiv]](https://arxiv.org/abs/1911.08004) <br> 
 Jian Ding, Yihong Wu, Jiaming Xu and Dana Yang.<br> 
-Under revision at <i>IEEE Transactions on Information Theory</i>, 2019.
+Under minor revision at <i>IEEE Transactions on Information Theory</i>, 2019.
 <details>
   <summary>Abstract</summary>
   Motivated by applications such as discovering strong ties in social networks and assembling genome subsequences in biology, we study the problem of recovering a hidden $2k$-nearest neighbor (NN) graph in an $n$-vertex complete graph, whose edge weights are independent and distributed according to $P_n$ for edges in the hidden $2k$-NN graph and $Q_n$ otherwise. The special case of Bernoulli distributions corresponds to a variant of the Watts-Strogatz small-world graph. We focus on two types of asymptotic recovery guarantees as $n\to \infty$: (1) exact recovery: all edges are classified correctly with probability tending to one; (2) almost exact recovery: the expected number of misclassified edges is $o(nk)$. We show that the maximum likelihood estimator achieves (1) exact recovery for $2 \le k \le n^{o(1)}$ if $\lim\inf\frac{2\alpha_n}{\log n}>1$; (2) almost exact recovery for $1\le k\le o\left(\frac{\log n}{\log\log n}\right)$ if $\liminf \frac{kD(P_n||Q_n)}{\log n}>1$, where $\alpha_n \triangleq -2 \log \int \sqrt{d P_n d Q_n}$ is the R&eacute;nyi divergence of order $\frac{1}{2}$ and $D(P_n||Q_n)$ is the Kullback-Leibler divergence. Under mild distributional assumptions, these conditions are shown to be information-theoretically necessary for any algorithm to succeed. A key challenge in the analysis is the enumeration of $2k$-NN graphs that differ from the hidden one by a given number of edges.
