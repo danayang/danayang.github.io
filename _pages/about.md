@@ -12,7 +12,7 @@ I am a postdoc at the Fuqua school of Business, Duke University working with [Pr
 
 I am spending Fall 2021 at Simons Institute for the Theory of computing, UC Berkeley on a Simons-Berkeley research fellowship. I will be participating in the program [Computational Complexity of Statistical Inference](https://simons.berkeley.edu/programs/si2021).
 
-I am very excited to join Cornell University Department of Statistics and Data Science Spring 2022!
+I am very excited to join Cornell University Department of Statistics and Data Science as an Assistant Professor Spring 2022!
 
 Research interests
 ======
