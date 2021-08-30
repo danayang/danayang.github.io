@@ -7,10 +7,20 @@ author_profile: true
 
 
 ## Journal publications
+<b>Consistent recovery threshold of hidden nearest neighbor graphs
+</b>[[journal]](https://ieeexplore.ieee.org/abstract/document/9446505)
+[[arXiv]](https://arxiv.org/abs/1911.08004) <br> 
+Jian Ding, Yihong Wu, Jiaming Xu and Dana Yang.<br> 
+<i>IEEE Transactions on Information Theory</i>, 2021.
+<details>
+  <summary>Abstract</summary>
+  Motivated by applications such as discovering strong ties in social networks and assembling genome subsequences in biology, we study the problem of recovering a hidden $2k$-nearest neighbor (NN) graph in an $n$-vertex complete graph, whose edge weights are independent and distributed according to $P_n$ for edges in the hidden $2k$-NN graph and $Q_n$ otherwise. The special case of Bernoulli distributions corresponds to a variant of the Watts-Strogatz small-world graph. We focus on two types of asymptotic recovery guarantees as $n\to \infty$: (1) exact recovery: all edges are classified correctly with probability tending to one; (2) almost exact recovery: the expected number of misclassified edges is $o(nk)$. We show that the maximum likelihood estimator achieves (1) exact recovery for $2 \le k \le n^{o(1)}$ if $\lim\inf\frac{2\alpha_n}{\log n}>1$; (2) almost exact recovery for $1\le k\le o\left(\frac{\log n}{\log\log n}\right)$ if $\liminf \frac{kD(P_n||Q_n)}{\log n}>1$, where $\alpha_n \triangleq -2 \log \int \sqrt{d P_n d Q_n}$ is the R&eacute;nyi divergence of order $\frac{1}{2}$ and $D(P_n||Q_n)$ is the Kullback-Leibler divergence. Under mild distributional assumptions, these conditions are shown to be information-theoretically necessary for any algorithm to succeed. A key challenge in the analysis is the enumeration of $2k$-NN graphs that differ from the hidden one by a given number of edges.
+</details>
+
 <b> Estimation of convex supports from noisy measurements</b>
 [[pdf]](http://danayang.github.io/files/ConvexBodyEstimation.pdf) <br> 
 Victor-Emmanuel Brunel, Jason M. Klusowski and Dana Yang.<br> 
-<i>Bernoulli</i>, to appear, 2020.
+<i>Bernoulli</i>, 2021.
 <details>
   <summary>Abstract</summary>
   A popular class of problem in statistics deals with estimating the support of a density from $n$ observations drawn at random from a $d$-dimensional distribution. The one-dimensional case reduces to estimating the end points of a univariate density. In practice, an experimenter may only have access to a noisy version of the original data. Therefore, a more realistic model allows for the observations to be contaminated with additive noise.
@@ -58,7 +68,20 @@ Kun Tian, Xiaoqian (Dana) Yang, Qin Kong, Changchuan Yin, Rong L. He and Stephen
 </details>
 
 ## Conference publications
+<b> Learner-Private Convex Optimization</b>
+[[pdf]](http://danayang.github.io/files/PrivateCO_ICML_main.pdf)
+[[supplement]](http://danayang.github.io/files/PrivateCO_ICML_supp.pdf)
+[[arXiv]](https://arxiv.org/abs/2102.11976)<br> 
+Jiaming Xu, Kuang Xu and Dana Yang.
+<i>ICML</i>, 2021.
+<details>
+  <summary>Abstract</summary>
+  Convex optimization with feedback is a framework where a learner relies on iterative queries and feedback to arrive at the minimizer of a convex function. The paradigm has gained significant popularity recently thanks to its scalability in large-scale optimization and machine learning. The repeated interactions, however, expose the learner to privacy risks from eavesdropping adversaries that observe the submitted queries. In this paper, we study how to optimally obfuscate the learner’s queries in convex optimization with first-order feedback, so that their learned optimal value is provably difficult to estimate for the eavesdropping adversary. We consider two formulations of learner privacy: a Bayesian formulation in which the convex function is drawn randomly, and a minimax formulation in which the function is fixed and the adversary’s probability of error is measured with respect to a minimax criterion. We show that, if the learner wants to ensure the probability of the adversary estimating accurately be kept below $1/L$, then the overhead in query complexity is additive in $L$ in the minimax formulation, but multiplicative in $L$ in the Bayesian formulation. Compared to existing learner-private sequential learning models with binary feedback, our results apply to the significantly richer family of general convex functions with full-gradient feedback. Our proofs are largely enabled by tools from the theory of Dirichlet processes, as well as more sophisticated lines of analysis aimed at measuring the amount of information leakage under a full-gradient oracle.
+</details>
+
 <b> Optimal query complexity for private sequential learning against eavesdropping</b>
+[[pdf]](http://danayang.github.io/files/PSL_AISTATS_main.pdf)
+[[supplement]](http://danayang.github.io/files/PSL_AISTATS_supp.pdf)
 [[arXiv]](https://arxiv.org/abs/1909.09836) <br> 
 Jiaming Xu, Kuang Xu and Dana Yang.
 <i>AISTATS</i>, 2021.
@@ -85,8 +108,9 @@ and obfuscation, respectively.
 </details>
 
 <b> The cost-free nature of optimally tuning Tikhonov regularizers and other ordered smoothers</b>
-[[pdf]](http://danayang.github.io/files/cost_free.pdf) <br> 
-Pierre C. Bellec and Dana Yang.<br> 
+[[pdf]](http://danayang.github.io/files/cost_free.pdf) 
+[[supplement]](http://danayang.github.io/files/cost_free_supp.pdf)<br> 
+Pierre C. Bellec and Dana Yang.
 <i>ICML</i>, 2020.
 <details>
   <summary>Abstract</summary>
@@ -101,13 +125,6 @@ Jian Ding, Yihong Wu, Jiaming Xu and Dana Yang.<br>
 </details>
 
 ## Preprints
-<b>Consistent recovery threshold of hidden nearest neighbor graphs </b>[[arXiv]](https://arxiv.org/abs/1911.08004) <br> 
-Jian Ding, Yihong Wu, Jiaming Xu and Dana Yang.<br> 
-Under minor revision at <i>IEEE Transactions on Information Theory</i>, 2019.
-<details>
-  <summary>Abstract</summary>
-  Motivated by applications such as discovering strong ties in social networks and assembling genome subsequences in biology, we study the problem of recovering a hidden $2k$-nearest neighbor (NN) graph in an $n$-vertex complete graph, whose edge weights are independent and distributed according to $P_n$ for edges in the hidden $2k$-NN graph and $Q_n$ otherwise. The special case of Bernoulli distributions corresponds to a variant of the Watts-Strogatz small-world graph. We focus on two types of asymptotic recovery guarantees as $n\to \infty$: (1) exact recovery: all edges are classified correctly with probability tending to one; (2) almost exact recovery: the expected number of misclassified edges is $o(nk)$. We show that the maximum likelihood estimator achieves (1) exact recovery for $2 \le k \le n^{o(1)}$ if $\lim\inf\frac{2\alpha_n}{\log n}>1$; (2) almost exact recovery for $1\le k\le o\left(\frac{\log n}{\log\log n}\right)$ if $\liminf \frac{kD(P_n||Q_n)}{\log n}>1$, where $\alpha_n \triangleq -2 \log \int \sqrt{d P_n d Q_n}$ is the R&eacute;nyi divergence of order $\frac{1}{2}$ and $D(P_n||Q_n)$ is the Kullback-Leibler divergence. Under mild distributional assumptions, these conditions are shown to be information-theoretically necessary for any algorithm to succeed. A key challenge in the analysis is the enumeration of $2k$-NN graphs that differ from the hidden one by a given number of edges.
-</details>
 <b> Rapid mixing of a Markov chain for the exponentially weighted aggregation estimator</b>
 [[arXiv]](https://arxiv.org/abs/1909.11773) <br> 
 David Pollard and Dana Yang.
