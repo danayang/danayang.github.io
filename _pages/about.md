@@ -31,8 +31,5 @@ I have a fairly eclectic collection of research interests and enjoy exploring ne
 Contact
 ======
 ### Email
-xiaoqian.yang[at]duke.edu
+dana.yang[at]cornell.edu
 
-### Office
-W320, 100 Fuqua Drive  
-Durham, North Carolina 27708
