@@ -4,40 +4,54 @@ title: "Talks and Presentations"
 permalink: /talks/
 author_profile: true
 ---
-<b> INFORMS Annual Meeting, 2020</b>
+INFORMS Annual Meeting, 2021
 
-Optimal query complexity for private sequential learning against eavesdropping
+The Simons Institute for the Theory of Computing, Joint IFML/CCSI Symposium, 2021
 
-<b>International Conference on Learning Theory (ICML), joint presentation with [Pierre C. Bellec](https://statistics.rutgers.edu/home/PCB71/), 2020</b>
+University of California, Riverside, Department of Statistics, 2021
 
-The cost-free nature of optimally tuning Tikhonov regularizers and other ordered smoothers
+Harvard University, Probabilitas Seminar, 2021
 
-<b>Conference on Learning Theory (COLT), 2020</b>
+International Conference on Learning Theory (ICML), 2021
 
-Consistent recovery threshold of hidden nearest neighbor graphs
+International Conference on Artificial Intelligence and Statistics (AISTATS), 2021
 
-<b>NeurIPS, Privacy in Machine Learning workshop (spotlight), 2019</b>
+ETH Zürich, Young Data Science Researcher Seminar, 2021
 
-Optimal query complexity for private sequential learning against eavesdropping
+Cornell University, Department of Statistics and Data Science, 2021
 
-<b>Probability Seminar Series, Department of Mathematics, Duke University, 2019</b>
+Texas A\&M University, Department of Statistics, 2021
 
-Rapid mixing of a Markov chain for the exponentially weighted aggregation estimator
+Johns Hopkins University, Mathematical Institute for Data Science, 2021
 
-<b>Decision Science Seminar Series, The Fuqua School of Business, Duke University, 2019</b>
+University of California, Berkeley, Department of IEOR, 2021
 
-A few extensions of bias correction techniques
+University of Washington, Department of Statistics, 2021
 
-<b>SMIL@Y Research Meeting, Yale University, 2018</b>
+George Mason University, Department of Statistics, 2021
 
-Fair quantile regression
+Purdue University, School of Industrial Engineering, 2021
 
-<b>Joint Statistical Meetings (JSM), 2016</b>
+University of Toronto, Department of Statistical Sciences, 2021
 
-A Bernstein-von Mises theorem in high-dimensional linear regression
+University of California, Irvine, Department of Statistics, 2021
 
-<b>Yale Probability Network Group, 2014-2015</b>
+University of Notre Dame, Department of Applied and Computational Math and Statistics, 2021
 
-Remarks on the Bernstein-von Mises theorem
+INFORMS Annual Meeting, 2020
 
-Remarks on Kneip’s linear smoothers
+International Conference on Learning Theory (ICML), joint presentation with [Pierre C. Bellec](https://statistics.rutgers.edu/home/PCB71/), 2020
+
+Conference on Learning Theory (COLT), 2020
+
+NeurIPS, Privacy in Machine Learning workshop (spotlight), 2019
+
+Probability Seminar Series, Department of Mathematics, Duke University, 2019
+
+Decision Science Seminar Series, The Fuqua School of Business, Duke University, 2019
+
+SMIL\@Y Research Meeting, Yale University, 2018
+
+Joint Statistical Meetings (JSM), 2016
+
+Yale Probability Network Group, 2014-2015
