@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am an assistant professor at Cornell University, in the department of statistics and data science. Before this I spent the Fall 2021 semester at the Simons Institute for the Theory of Computing, UC Berkeley on a Simons-Berkeley research fellowship. Before that I was a postdoc at the Fuqua school of Business, Duke University, working with [Prof. Jiaming Xu](https://faculty.fuqua.duke.edu/~jx77/). I received my PhD degree in 2019 from the department of statistics and data science at Yale University. At Yale I was co-advised by [Prof. David Pollard](http://www.stat.yale.edu/~pollard/), [Prof. Yihong Wu](http://www.stat.yale.edu/~yw562/), and [Prof. John Lafferty](https://statml.yale.edu/people/pi).
+I am an assistant professor at Cornell University, in the department of statistics and data science. Previously I spent the Fall 2021 semester at the Simons Institute for the Theory of Computing, UC Berkeley on a Simons-Berkeley research fellowship. Before that I was a postdoc at the Fuqua school of Business, Duke University, working with [Prof. Jiaming Xu](https://faculty.fuqua.duke.edu/~jx77/). I received my PhD degree in 2019 from the department of statistics and data science at Yale University. At Yale I was co-advised by [Prof. David Pollard](http://www.stat.yale.edu/~pollard/), [Prof. Yihong Wu](http://www.stat.yale.edu/~yw562/), and [Prof. John Lafferty](https://statml.yale.edu/people/pi).
 
 #I am spending Fall 2021 at Simons Institute for the Theory of computing, UC Berkeley on a Simons-Berkeley research fellowship. I will be participating in the program [Computational Complexity of Statistical Inference](https://simons.berkeley.edu/programs/si2021).
 
