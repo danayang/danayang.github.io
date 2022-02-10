@@ -20,7 +20,7 @@ ETH Zürich, Young Data Science Researcher Seminar, 2021
 
 Cornell University, Department of Statistics and Data Science, 2021
 
-Texas A\&M University, Department of Statistics, 2021
+Texas A&M University, Department of Statistics, 2021
 
 Johns Hopkins University, Mathematical Institute for Data Science, 2021
 
