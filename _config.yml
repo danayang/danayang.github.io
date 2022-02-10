@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Dana Yang"
 title_separator          : "-"
 name                     : &name "Dana Yang"
-description              : &description "Postdoc at Duke University"
+description              : &description "assistant professor at Cornell University"
 url                      : https://danayang.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "danayang/academicpages.github.io"
@@ -82,8 +82,8 @@ analytics:
 author:
   name             : "Dana (Xiaoqian) Yang"
   avatar           : "profile.jpg"
-  bio              : "Postdoc at Duke University"
-  location         : "Durham, North Carolina"
+  bio              : "Assistant Professor at Cornell University"
+  location         : "Ithaca, New York"
   employer         : 
   pubmed           : 
   googlescholar    : https://scholar.google.com/citations?user=-QMned0AAAAJ&hl=en&oi=sra
