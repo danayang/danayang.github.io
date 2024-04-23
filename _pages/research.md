@@ -7,9 +7,27 @@ author_profile: true
 
 
 ## Journal publications
+<b> The planted matching problem: Sharp threshold and infinite-order phase transition</b>
+</b>[[journal]](https://link.springer.com/article/10.1007/s00440-023-01208-6)<br> 
+Jian Ding, Yihong Wu, Jiaming Xu and Dana Yang.<br> 
+<i>Probability Theory and Related Fields</i>, 2023.
+<details>
+<summary>Abstract</summary>
+We study the problem of reconstructing a perfect matching $M^*$ hidden in a randomly weighted $n\times n$ bipartite graph. The edge set includes every node pair in $M^*$ and each of the $n(n−1)$ node pairs not in $M^*$ independently with probability $d/n$. The weight of each edge $e$ is independently drawn from the distribution $\mathcal{P}$ if $e\in M^*$ and from $\mathcal{Q}$ if $e\notin M^*$. We show that if $\sqrt{d}B(\mathcal{P},\mathcal{Q})\leq 1$, where $B(\mathcal{P},\mathcal{Q})$ stands for the Bhattacharyya coefficient, the reconstruction error (average fraction of misclassified edges) of the maximum likelihood estimator of $M^*$ converges to $0$ as $n\rightarrow\infty$. Conversely, if $\sqrt{d}B(\mathcal{P},\mathcal{Q})\geq 1+\epsilon$ for an arbitrarily small constant $\epsilon>0$, the reconstruction error for any estimator is shown to be bounded away from $0$ under both the sparse and dense model, resolving the conjecture in [Moharrami et al. 2019, Semerjian et al. 2020]. Furthermore, in the special case of complete exponentially weighted graph with $d=n$, $\mathcal{P}=\exp(\lambda)$, and $\mathcal{Q}=\exp(1/n)$, for which the sharp threshold simplifies to $\lambda = 4$, we prove that when $\lambda\leq 4-\epsilon$, the optimal reconstruction error is $\exp(-\Theta(1/\sqrt{\epsilon}))$, confirming the conjectured infinite-order phase transition in [Semerjian et al. 2020]
+</details>
+
+<b> Learner-Private Convex Optimization</b>
+[[journal]](https://ieeexplore.ieee.org/abstract/document/9875320?casa_token=BnHabSfFtJsAAAAA:3PeJZHR2i_aTg1jUttzQ0SyI8yG9jknW8d2SZp3CZzigZNJvlozHQMUkKaUs3M7DGYaj9Fg)<br>
+Jiaming Xu, Kuang Xu and Dana Yang.<br>
+<i>IEEE Transactions on Information Theory</i>, 2022.
+<details>
+  <summary>Abstract</summary>
+  Convex optimization with feedback is a framework where a learner relies on iterative queries and feedback to arrive at the minimizer of a convex function. The paradigm has gained significant popularity recently thanks to its scalability in large-scale optimization and machine learning. The repeated interactions, however, expose the learner to privacy risks from eavesdropping adversaries that observe the submitted queries. In this paper, we study how to optimally obfuscate the learner’s queries in convex optimization with first-order feedback, so that their learned optimal value is provably difficult to estimate for the eavesdropping adversary. We consider two formulations of learner privacy: a Bayesian formulation in which the convex function is drawn randomly, and a minimax formulation in which the function is fixed and the adversary’s probability of error is measured with respect to a minimax criterion. We show that, if the learner wants to ensure the probability of the adversary estimating accurately be kept below $1/L$, then the overhead in query complexity is additive in $L$ in the minimax formulation, but multiplicative in $L$ in the Bayesian formulation. Compared to existing learner-private sequential learning models with binary feedback, our results apply to the significantly richer family of general convex functions with full-gradient feedback. Our proofs are largely enabled by tools from the theory of Dirichlet processes, as well as more sophisticated lines of analysis aimed at measuring the amount of information leakage under a full-gradient oracle.
+</details>
+
+
 <b>Consistent recovery threshold of hidden nearest neighbor graphs
-</b>[[journal]](https://ieeexplore.ieee.org/abstract/document/9446505)
-[[arXiv]](https://arxiv.org/abs/1911.08004) <br> 
+</b>[[journal]](https://ieeexplore.ieee.org/abstract/document/9446505)<br> 
 Jian Ding, Yihong Wu, Jiaming Xu and Dana Yang.<br> 
 <i>IEEE Transactions on Information Theory</i>, 2021.
 <details>
@@ -18,7 +36,7 @@ Jian Ding, Yihong Wu, Jiaming Xu and Dana Yang.<br>
 </details>
 
 <b> Estimation of convex supports from noisy measurements</b>
-[[pdf]](http://danayang.github.io/files/ConvexBodyEstimation.pdf) <br> 
+[[journal]](https://projecteuclid.org/journals/bernoulli/volume-27/issue-2/Estimation-of-convex-supports-from-noisy-measurements/10.3150/20-BEJ1229.short) <br> 
 Victor-Emmanuel Brunel, Jason M. Klusowski and Dana Yang.<br> 
 <i>Bernoulli</i>, 2021.
 <details>
@@ -29,8 +47,7 @@ In this paper, we consider estimation of convex bodies when the additive noise i
 </details>
 
 <b> Posterior asymptotic normality for an individual coordinate in high-dimensional linear regression</b>
-[[journal]](https://projecteuclid.org/euclid.ejs/1569290683)
-[[pdf]](http://danayang.github.io/files/betaone.pdf)<br>
+[[journal]](https://projecteuclid.org/euclid.ejs/1569290683)<br>
 Dana Yang.<br> 
 <i>Electronic Journal of Statistics</i>, 13(2), pages 3082-3094, 2019.
 <details>
@@ -49,8 +66,7 @@ Jason M. Klusowski, Dana Yang and W.D. Brinda.<br>
 We also show that the population EM operator for mixtures of two regressions is anti-contractive from the target parameter vector if the cosine angle between the input vector and the target parameter vector is too small, thereby establishing the necessity of our conic condition. Finally, we give empirical evidence supporting this theoretical observation, which suggests that the sample based EM algorithm may not converge to the target vector when initial guesses are drawn accordingly. Our simulation study also suggests that the EM algorithm performs well even under model misspecification (i.e., when the covariate and error distributions violate the model assumptions).
 </details>
 <b> H&ouml;lder's identity</b>
-[[journal]](https://www.sciencedirect.com/science/article/pii/S0167715219300148)
-[[pdf]](http://danayang.github.io/files/Holder.pdf)<br> 
+[[journal]](https://www.sciencedirect.com/science/article/pii/S0167715219300148)<br> 
 W.D. Brinda, Jason M. Klusowski and Dana Yang.
 <i>Statistics & Probability Letters</i>, Volume 148, Pages 150-154, 2019.
 <details>
@@ -58,8 +74,7 @@ W.D. Brinda, Jason M. Klusowski and Dana Yang.
   We clarify that H&ouml;lder's inequality can be stated more generally than is often realized.  This is an immediate consequence of an analogous information-theoretic identity which we call <i>H&ouml;lder's identity</i>. We also explain Andrew R. Barron's original use of the identity.
 </details>
 <b> Two dimensional Yau-Hausdorff distance with applications on comparison of DNA and protein sequences</b> (undergraduate thesis)
-[[journal]](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0136577)
-[[pdf]](http://danayang.github.io/files/Yau_Hausdorff.pdf) <br> 
+[[journal]](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0136577)<br> 
 Kun Tian, Xiaoqian (Dana) Yang, Qin Kong, Changchuan Yin, Rong L. He and Stephen S-T Yau.<br> 
 <i>PloS one</i>, 10(9), 2015.
 <details>
@@ -68,22 +83,26 @@ Kun Tian, Xiaoqian (Dana) Yang, Qin Kong, Changchuan Yin, Rong L. He and Stephen
 </details>
 
 ## Conference publications
+<b> Is it easier to count communities than find them?</b>
+[[arXiv]](https://arxiv.org/abs/2212.10872)<br>
+Cynthia Rush, Fiona Skerman, Alexander S. Wein and Dana Yang.<br>
+<i>Innovations in Theoretical Computer Science Conference</i>, 2023.
+<details>
+ <summary>Abstract</summary>
+Random graph models with community structure have been studied extensively in the literature. For both the problems of detecting and recovering community structure, an interesting landscape of statistical and computational phase transitions has emerged. A natural unanswered question is: might it be possible to infer properties of the community structure (for instance, the number and sizes of communities) even in situations where actually finding those communities is believed to be computationally hard? We show the answer is no. In particular, we consider certain hypothesis testing problems between models with different community structures, and we show (in the low-degree polynomial framework) that testing between two options is as hard as finding the communities. In addition, our methods give the first computational lower bounds for testing between two different "planted" distributions, whereas previous results have considered testing between a planted distribution and an i.i.d. "null" distribution.
+</details>
+
 <b> Learner-Private Convex Optimization</b>
 [[pdf]](http://danayang.github.io/files/PrivateCO_ICML_main.pdf)
-[[supplement]](http://danayang.github.io/files/PrivateCO_ICML_supp.pdf)
-[[arXiv]](https://arxiv.org/abs/2102.11976)<br> 
-Jiaming Xu, Kuang Xu and Dana Yang.
+[[supplement]](http://danayang.github.io/files/PrivateCO_ICML_supp.pdf)<br>
+Jiaming Xu, Kuang Xu and Dana Yang.<br>
 <i>ICML</i>, 2021.
-<details>
-  <summary>Abstract</summary>
-  Convex optimization with feedback is a framework where a learner relies on iterative queries and feedback to arrive at the minimizer of a convex function. The paradigm has gained significant popularity recently thanks to its scalability in large-scale optimization and machine learning. The repeated interactions, however, expose the learner to privacy risks from eavesdropping adversaries that observe the submitted queries. In this paper, we study how to optimally obfuscate the learner’s queries in convex optimization with first-order feedback, so that their learned optimal value is provably difficult to estimate for the eavesdropping adversary. We consider two formulations of learner privacy: a Bayesian formulation in which the convex function is drawn randomly, and a minimax formulation in which the function is fixed and the adversary’s probability of error is measured with respect to a minimax criterion. We show that, if the learner wants to ensure the probability of the adversary estimating accurately be kept below $1/L$, then the overhead in query complexity is additive in $L$ in the minimax formulation, but multiplicative in $L$ in the Bayesian formulation. Compared to existing learner-private sequential learning models with binary feedback, our results apply to the significantly richer family of general convex functions with full-gradient feedback. Our proofs are largely enabled by tools from the theory of Dirichlet processes, as well as more sophisticated lines of analysis aimed at measuring the amount of information leakage under a full-gradient oracle.
-</details>
 
 <b> Optimal query complexity for private sequential learning against eavesdropping</b>
 [[pdf]](http://danayang.github.io/files/PSL_AISTATS_main.pdf)
 [[supplement]](http://danayang.github.io/files/PSL_AISTATS_supp.pdf)
 [[arXiv]](https://arxiv.org/abs/1909.09836) <br> 
-Jiaming Xu, Kuang Xu and Dana Yang.
+Jiaming Xu, Kuang Xu and Dana Yang.<br>
 <i>AISTATS</i>, 2021.
 <details>
   <summary>Abstract</summary>
@@ -125,14 +144,6 @@ Jian Ding, Yihong Wu, Jiaming Xu and Dana Yang.<br>
 </details>
 
 ## Preprints
-<b> The planted matching problem: Sharp threshold and infinite-order phase transition</b>
-[[arXiv]](https://arxiv.org/abs/2103.09383) <br> 
-Jian Ding, Yihong Wu, Jiaming Xu and Dana Yang.
-<i>arXiv:2103.09383</i>, 2021.
-<details>
-<summary>Abstract</summary>
-We study the problem of reconstructing a perfect matching $M^*$ hidden in a randomly weighted $n\times n$ bipartite graph. The edge set includes every node pair in $M^*$ and each of the $n(n−1)$ node pairs not in $M^*$ independently with probability $d/n$. The weight of each edge $e$ is independently drawn from the distribution $\mathcal{P}$ if $e\in M^*$ and from $\mathcal{Q}$ if $e\notin M^*$. We show that if $\sqrt{d}B(\mathcal{P},\mathcal{Q})\leq 1$, where $B(\mathcal{P},\mathcal{Q})$ stands for the Bhattacharyya coefficient, the reconstruction error (average fraction of misclassified edges) of the maximum likelihood estimator of $M^*$ converges to $0$ as $n\rightarrow\infty$. Conversely, if $\sqrt{d}B(\mathcal{P},\mathcal{Q})\geq 1+\epsilon$ for an arbitrarily small constant $\epsilon>0$, the reconstruction error for any estimator is shown to be bounded away from $0$ under both the sparse and dense model, resolving the conjecture in [Moharrami et al. 2019, Semerjian et al. 2020]. Furthermore, in the special case of complete exponentially weighted graph with $d=n$, $\mathcal{P}=\exp(\lambda)$, and $\mathcal{Q}=\exp(1/n)$, for which the sharp threshold simplifies to $\lambda = 4$, we prove that when $\lambda\leq 4-\epsilon$, the optimal reconstruction error is $\exp(-\Theta(1/\sqrt{\epsilon}))$, confirming the conjectured infinite-order phase transition in [Semerjian et al. 2020]
-</details>
 
 <b> Rapid mixing of a Markov chain for the exponentially weighted aggregation estimator</b>
 [[arXiv]](https://arxiv.org/abs/1909.11773) <br> 
