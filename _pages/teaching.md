@@ -5,9 +5,33 @@ permalink: /teaching/
 author_profile: true
 ---
 ## Instructor
+* <b>STSCI4030/STSCI5030/BTRY4030: Linear Models with Matrices</b>
+
+    Fall 2024, Cornell University
+
+* <b>STSCI4100/STSCI5111/ILRST4100/BTRY4100: Multivariate Analysis</b>
+
+    Spring 2024, Cornell University
+
+* <b>STSCI4030/STSCI5030/BTRY4030: Linear Models with Matrices</b>
+
+    Fall 2023, Cornell University
+
+* <b>STSCI4100/STSCI5111/ILRST4100/BTRY4100: Multivariate Analysis</b>
+
+    Spring 2023, Cornell University
+
+* <b>STSCI4030/STSCI5030/BTRY4030: Linear Models with Matrices</b>
+
+    Fall 2022, Cornell University
+
+* <b>STSCI 6040: Random Graph Analysis, Cornell University</b>
+
+    Spring 2022, Cornell University
+
 * <b>S&DS S107: Introduction to Statistics</b>
 
-    Summer 2017, Yale University [[syllabus]](http://danayang.github.io/files/S107_syllabus.pdf)
+    Summer 2017, Yale University
 
 ## Teaching fellow
 * <b>S&DS 625: Statistical Case Studies</b>, Fall 2016.
