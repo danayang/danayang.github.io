@@ -1,8 +1,8 @@
 ---
-layout: archive
 title: "Talks and Presentations"
+layout: archive
 permalink: /talks/
-author_profile: true
+author_profile: yes
 ---
 INFORMS Annual Meeting, 2021
 
